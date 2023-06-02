@@ -18,7 +18,6 @@ export default function App() {
   };
 
   const onLeaveFeedback = option => {
-    console.log(option);
     switch (option) {
       case 'good':
         setGood(good + 1);
